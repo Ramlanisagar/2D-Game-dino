@@ -22,7 +22,7 @@ function StartJump()     // properly designed now
     if(player.onGround)
     {
         console.log("Pressed");
-        player.velocityY = -40; //acce
+        player.velocityY = -40; //acceleration
         player.onGround = false;
     }
 }         
